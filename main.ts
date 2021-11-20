@@ -383,7 +383,7 @@ namespace sensors {
 
     let _DIO = 0
     let _CLK = 0
-    //% blockId=basic_piano_pin block="basic_piano_pin |DIO pin %DIO|CLK pin %CLK"   group="触摸钢琴模块 V1"
+    //% blockId=basic_piano_pin block="basic_piano_pin |DIO pin %DIO|CLK pin %CLK"   group="Touch piano module V1"
     //% weight=70
     //% subcategory="Basic input module"
     export function basic_piano_pin(DIO: DigitalPin, CLK: DigitalPin): void {
@@ -392,7 +392,7 @@ namespace sensors {
         _CLK = CLK
     }
 
-    //% blockId=basic_piano_play block="basic_piano_play"   group="触摸钢琴模块 V1"
+    //% blockId=basic_piano_play block="basic_piano_play"   group="Touch piano module V1"
     //% weight=69
     //% subcategory="Basic input module"
     export function basic_piano_play(): void {
@@ -430,7 +430,7 @@ namespace sensors {
     let _pianoDIO = 0
     let _pianoCLK = 0
 
-    //% blockId=piano_v2_init block="piano_v2_init|DIO %pianoDIO|CLK %pianoCLK"   group="触摸钢琴模块 V2"
+    //% blockId=piano_v2_init block="piano_v2_init|DIO %pianoDIO|CLK %pianoCLK"   group="Touch piano module V2"
     //% weight=61
     //% subcategory="Basic input module"
     export function piano_v2_init(pianoDIO: DigitalPin, pianoCLK: DigitalPin): void {
@@ -439,7 +439,7 @@ namespace sensors {
         _pianoCLK = pianoCLK
     }
 
-    //% blockId=piano_v2_play block="piano_v2_read"   group="触摸钢琴模块 V2"
+    //% blockId=piano_v2_play block="piano_v2_read"   group="Touch piano module V2"
     //% weight=60
     //% subcategory="Basic input module"
     export function piano_v2_play(): void {
@@ -471,9 +471,9 @@ namespace sensors {
     }
 
     /**
-     * 游戏手柄
+     * Gamepad
      */
-    //% blockId=Gamepad_Press block="Gamepad buttons %button Is pressed？"  group="PH2.0手柄"
+    //% blockId=Gamepad_Press block="Gamepad buttons %button Is pressed？"  group="PH2.0 handle"
     //% weight=74
     //% subcategory="Basic input module"
     //% inlineInputMode=inline
@@ -486,9 +486,9 @@ namespace sensors {
     }
 
     /**
-     * PH2.0手柄
+     * PH2.0 handle
      */
-    //% blockId=Gamepad_Release block="Gamepad buttons %button Is Released？"  group="PH2.0手柄"
+    //% blockId=Gamepad_Release block="Gamepad buttons %button Is Released？"  group="PH2.0 handle"
     //% weight=74
     //% subcategory="Basic input module"
     //% inlineInputMode=inline
@@ -501,9 +501,9 @@ namespace sensors {
     }
 
     /**
-     * PH2.0手柄
+     * PH2.0 handle
      */
-    //% blockId=Gamepad_Shaft block="Game controller acquisition %shaft the value of"  group="PH2.0手柄"
+    //% blockId=Gamepad_Shaft block="Game controller acquisition %shaft the value of"  group="PH2.0 handle"
     //% weight=74
     //% subcategory="Basic input module"
     //% inlineInputMode=inline
@@ -519,9 +519,9 @@ namespace sensors {
     }
 
     /**
-     * PH2.0手柄
+     * PH2.0 handle
      */
-    //% blockId=Gamepad_Status block="Button %button is it %status status?"  group="PH2.0手柄"
+    //% blockId=Gamepad_Status block="Button %button is it %status status?"  group="PH2.0 handle"
     //% weight=74
     //% subcategory="Basic input module"
     //% inlineInputMode=inline
